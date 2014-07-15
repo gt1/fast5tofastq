@@ -9,7 +9,7 @@ This program (fast5tofastq) opens a HDF5 file and checks the paths
 
 for string objects in the given order. When it finds any such object it
 prints the string contents on the standard output channel and quits. If it
-finds no such element than it quits without printing anything on standard
+finds no such element then it quits without printing anything on standard
 output.
 
 Compilation requires a HDF5 installation in version >= 1.8.13 
